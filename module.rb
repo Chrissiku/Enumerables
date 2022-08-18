@@ -18,4 +18,12 @@ module MyEnumerable
         end
         puts !myArray.empty?
     end 
+
+    def filter? 
+        myArray = []
+        list.each do |element| 
+            myArray.push(element) if yield(element)
+        end
+        puts myArray
+    end 
 end
