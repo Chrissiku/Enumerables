@@ -4,26 +4,26 @@ module MyEnumerable
   end
 
   def all?
-    myArray = []
+    my_array = []
     list.each do |element|
-      myArray.push(element) if yield(element)
+      my_array.push(element) if yield(element)
     end
-    p myArray.length == list.length
+    p my_array.length == list.length
   end
 
   def any?
-    myArray = []
+    my_array = []
     list.each do |element|
-      myArray.push(element) if yield(element)
+      my_array.push(element) if yield(element)
     end
-    puts !myArray.empty?
+    puts !my_array.empty?
   end
 
   def filter?
-    myArray = []
+    my_array = []
     list.each do |element|
-      myArray.push(element) if yield(element)
+      my_array.push(element) if yield(element)
     end
-    p myArray
+    p my_array
   end
 end
