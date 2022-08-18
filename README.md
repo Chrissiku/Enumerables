@@ -1,5 +1,5 @@
 # Enumerables in Ruby 
-> In the project projects, we create an automated program that can help to decrypt a morse-message
+> This project used Ruby module inside a class
 
 ## Authors
 👤 **Chris Siku**
