@@ -22,3 +22,5 @@ list_test.any? {|e| e == 2} # => true
 list_test.any? {|e| e == 5} # => false
 
 # Test filter? method
+
+list_test.filter? {|e| e.even?}

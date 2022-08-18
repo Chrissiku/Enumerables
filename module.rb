@@ -24,6 +24,6 @@ module MyEnumerable
         list.each do |element| 
             myArray.push(element) if yield(element)
         end
-        puts myArray
+        p myArray
     end 
 end
